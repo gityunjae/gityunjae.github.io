@@ -20,7 +20,7 @@ My main interests are...
 * Chatbots
 
 
-Below are what I'm mainly planning to post.
+Below are what I'm mainly planning to post about.
 
 <dl>
   <dt>Papers</dt>
