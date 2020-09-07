@@ -16,7 +16,7 @@ Below are what I'm mainly planning to post about.
   <dd>Read SoTA papers, study it, write some code if possible</dd>
 
   <dt>Study(NLP & NLU)</dt>
-  <dd>Latest technologies about Natural Language Processing and Natural Language Understanding</dd>
+  <dd>Latest technologies about NLP and NLU</dd>
 
   <dt>Diary</dt>
   <dd>Mainly about my life & feelings?</dd>
