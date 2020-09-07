@@ -2,28 +2,31 @@
 layout: page
 title: About
 ---
+### About me and my blog
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I am currently a Computer Science B.S. candidate at Ewha Womans University
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+My main interests are...
 
-There are currently two themes built on Poole:
+* Question and Answering
+* Dialog system
+* Chatbots / intelligent agents
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Below are what I'm mainly planning to post about.
 
-## Setup
+<dl>
+  <dt>Papers</dt>
+  <dd>Read SoTA papers, study it, write some code if possible</dd>
 
-Some fun facts about the setup of this project include:
+  <dt>Study(NLP & NLU)</dt>
+  <dd>Latest technologies about Natural Language Processing and Natural Language Understanding</dd>
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+  <dt>Diary</dt>
+  <dd>Mainly about my life & feelings?</dd>
+</dl>
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!
+-----
+
+Hope I can post regularly :D
