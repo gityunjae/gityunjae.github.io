@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me and my blog
+title: About
 ---
 I am currently a Computer Science B.S. candidate at Ewha Womans University
 
