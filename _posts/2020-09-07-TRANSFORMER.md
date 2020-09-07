@@ -24,7 +24,7 @@ RNN 모델에는 약간의 한계점들이 존재하는데,
 
 
 
-출처: 
-[1] 딥 러닝을 이용한 자연어처리 입문 ( https://wikidocs.net/24996 )
-[2] ratsgo님 블로그 ( https://ratsgo.github.io/natural%20language%20processing/2017/03/12/s2s/ )
-[3] nlp-bert-transformer ( https://medium.com/@jonathan_hui/nlp-bert-transformer-7f0ac397f524 )
+출처: <br>
+[1] 딥 러닝을 이용한 자연어처리 입문 (https://wikidocs.net/24996)<br>
+[2] ratsgo님 블로그 (https://ratsgo.github.io/natural%20language%20processing/2017/03/12/s2s/)<br>
+[3] nlp-bert-transformer (https://medium.com/@jonathan_hui/nlp-bert-transformer-7f0ac397f524)<br>
