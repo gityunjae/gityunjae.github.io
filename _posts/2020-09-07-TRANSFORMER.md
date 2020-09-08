@@ -20,7 +20,7 @@ RNN 모델에는 약간의 한계점들이 존재하는데,
 ### Attention
 우리가 수능특강 영어 영역 문제를 풀 때 문단 내 어떤 단어의 뜻을 알기 위해 주변 단어들에 더 관심을 두며 지문을 읽으면 더 효과적으로 문제를 해결할 수 있다. 이처럼 우리는 어떤 특정한 목적을 가지고 읽을 때 모든 단어에 같은 정도의 관심을 주지는 않는다. 이와 유사하게 어떤 특정한 기준에 따라 입력된 각각의 토큰들에 대한 가중치(attention)을 조절해주는 방식으로 학습을 해주는 방법이 있다. 이를 seq2seq 모델에 적용을 하면 각 timestep에 모든 입력받은 토큰들에 대한 attention값들이 달라진다. 
 
-Attention은 Query, Key, Value 이렇게 세개의 값을 가지고 계산을 하는데, 
+Attention은 Query, Key, Value 이렇게 세개의 값을 가지고 계산을 하는데, query, key, value는 쉽게 생각하면 유튜브에서 동영상을 검색할 때, 내가 입력한 값이 query, 동영상의 제목이나 설명 등 그 동영상을 특정할 수 있는 값이 key, 그리고 검색 결과에 해당하는 동영상이 value라고 비유할 수 있습니다[4].
 
 
 <br>
@@ -29,3 +29,4 @@ Attention은 Query, Key, Value 이렇게 세개의 값을 가지고 계산을 �
 [1] 딥 러닝을 이용한 자연어처리 입문 (https://wikidocs.net/24996)<br>
 [2] ratsgo님 블로그 (https://ratsgo.github.io/natural%20language%20processing/2017/03/12/s2s/)<br>
 [3] nlp-bert-transformer (https://medium.com/@jonathan_hui/nlp-bert-transformer-7f0ac397f524)<br>
+[4] stackexchange most voted answer (https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms)<br>
