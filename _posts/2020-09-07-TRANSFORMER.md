@@ -26,7 +26,7 @@ Attention은 Query, Key, Value 이렇게 세개의 값을 가지고 계산을 �
 
 ### Transformer 모델
 Transformer 모델의 구조는 다음과 같다.
-
+![transformer_model](../image/transformer_model.png)
 
 <br>
 ---
