@@ -11,11 +11,10 @@ title: Home
 
 <h2>Recent posts</h2>
   {% for post in paginator.posts %}
-  <div class="post">
-    <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-    </a>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-  </div>
+  <li>
+    <div class="post">
+      <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+      <small>{{ post.date | date_to_string }}</small>
+    </div>
+  </li>
   {% endfor %}
