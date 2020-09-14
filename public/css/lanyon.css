@@ -452,12 +452,24 @@ a.pagination-item:hover {
 .theme-base-09 .sidebar,
 .theme-base-09 .sidebar-toggle:active,
 .theme-base-09 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #d16643;
+  background-color: #d28445;
 }
 .theme-base-09 .container a,
 .theme-base-09 .sidebar-toggle,
 .theme-base-09 .related-posts li a:hover {
-  color: #d16643;
+  color: #d28445;
+}
+
+/* Ewha Green */
+.theme-base-99 .sidebar,
+.theme-base-99 .sidebar-toggle:active,
+.theme-base-99 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #105416;
+}
+.theme-base-99 .container a,
+.theme-base-99 .sidebar-toggle,
+.theme-base-99 .related-posts li a:hover {
+  color: #105416;
 }
 
 /* Yellow */
