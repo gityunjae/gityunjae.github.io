@@ -29,6 +29,13 @@ Transformer 모델의 구조는 다음과 같다.
 
 ![transformer_model](https://gityunjae.github.io/images/transformer_model.PNG)
 
+
+기본적으로 Encoder와 Decoder로 이루어져 있다.
+- Encoder: 동일한 encoder 레이어 6층으로 이루어져 있으며 각 레이어는 두 개의 하위 레이어(multi-head attention, feed-forward)로 이루어져 있다. output의 dimension은 dmodel=512로 통일한다.
+- Decoder: 동일한 decoder 레이어 6층으로 이루어져 있으며 각 레이어는 인코더의 두 개의 하위 레이어에 추가적으로 encoder의 출력에 대한 multi-head attention을 수행하는 하나의 하위 레이어가 추가된다. 또한, self-attention을 변형하여 현재 위치에서 알 수 있는 정보들만 가지고 학습이 이루어질 수 있도록 마스킹을 한다.
+
+Attention 함수는 query를 key-value쌍 집합에 매핑해준다고 생각하면 되는데, 이 때 query, key, value 그리고 output이 모두 vector이다. 출력의 경우 value의 가중치합으로 계산된다. (위에서 좀 더 자세히 설명해두었다.) Transformer에서는 이러한 attention 함수 중에서도 <b>Scaled Dot-Product Attention</b>을 사용하는데
+
 <br>
 ---
 출처: <br>
