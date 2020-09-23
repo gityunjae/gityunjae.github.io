@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Question & Answering
+title: qa
 category: qa
 permalink: '/category/qa'
 ---
