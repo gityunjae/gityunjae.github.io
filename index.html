@@ -9,10 +9,3 @@ title: Home
 <text> You can see my posts from </text><a href="https://gityunjae.github.io/category">Categories</a><text> menu, </text><br>
 <text>and brief introduction of myself from </text><a href="https://gityunjae.github.io/about/">About</a><text> menu </text><br>
 <br>
-<h2>Recent posts</h2>
-  {% for post in paginator.posts %}
-  <li>
-    <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-    <small>{{ post.date | date_to_string }}</small>
-  </li>
-  {% endfor %}
