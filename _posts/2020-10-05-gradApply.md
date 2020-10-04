@@ -1,7 +1,7 @@
 ---
 category: etc
 layout: post
-title: 대학원 지원기 - 입학원서
+title: 대학원 지원기 - 지원서 
 ---
 
 <del>진짜 입시 그만하고 싶다 ㅎ...</del>
