@@ -21,7 +21,7 @@ Open domain chatbot을 평가할 때는 사람과 같은지 아닌지를 구분�
 3. well-behaved
 
 
-## 1. continually learning
+## 1. Continually Learning
 continually learning을 하는데에는 크게 세 가지 요소가 존재하는데, 각각에 대해 살펴보도록 하자.
 
 ### continuous online training of underlying models
@@ -49,3 +49,7 @@ Pure retrieval model의 경우 모델 생성시에 지정해준 값들에서만 
 이 논문의 연구자들은 conversational agent를 사람 발화 수집 및 계속적인 평가 수집을 목적으로 하는 voting game의 형태로 배포했는데, 이 게임에서는 사람 둘이 짝을 지어 한 명은 response를 쓰고, 다른 한명은 앞선 사람이 쓴 response와 model이 생성한 response중 하나를 선택한다.
 
 이 카테고리에서 해결해야 할 문제는 여전히 성능이 좋은 모델은 용량도 크고 연산량도 많은 transformer 기반의 모델이라는 것인데, memory와 computation을 줄이면 on-device model과 소통을 할 수 있게 될 것이라고 주장한다. 최근에는 knowledge distillation, adaptive span, pruning등 더 compact하고 성능 좋은 모델을 만드는 연구가 진행되고 있다고 한다.
+
+## 2. Engaging Content
+
+## 3. Well-Behaved
