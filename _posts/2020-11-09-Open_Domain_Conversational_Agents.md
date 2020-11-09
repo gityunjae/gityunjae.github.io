@@ -24,19 +24,19 @@ Open domain chatbot을 평가할 때는 사람과 같은지 아닌지를 구분�
 ### 1. continually learning
 continually learning을 하는데에는 크게 세 가지 요소가 존재하는데, 각각에 대해 살펴보도록 하자.
 
-* continuous online training of underlying models
+#### continuous online training of underlying models
 static dataset을 가지고 학습을 하는 것은 reproducibility나 model comparison에는 좋지만 학습시킬 당시와 배포할 시기 사이의 차이가 있을 수 있다. 그리고 한 도메인에서 학습된 모델을 목적에 맞게 finetune하면 좋은 결과를 얻을 수 있지만 여전히 새로운 topic으로 적용하기에는 한계가 있다.
 
 특정 도메인 관련해서는 다양한 도메인의 데이터로 학습을 시키는 것이 fine-tuning할 때 제일 좋지만 interaction data의 경우 특별히 더 학습시키기에 좋은 데이터를 특정하지 못했고, 실제로 dialog corpora로 학습하는것보다 그냥 바로 사용할 수 있는 non-interactive corpora를 사용해서 학습하는게 더 효과적이라는 발표도 있었다.
 
 대화중에 화제를 유지하거나 과거의 다른 topic으로 바꾸기 위해서는 강화학습을 사용할 수 있는데, 이 때 보상을 어떻게 줘야 하는지는 현재도 연구되고 있는 분야이다. 이를 위해 대화를 하는 과정에서 배우는 방법이 있다.
 
-* extracting useful learning signals from interaction
+#### extracting useful learning signals from interaction
 이 방법은 대화 상대로부터 직접 feedback을 받는 방법인데, 예를 들어 self feeding chatbot의 경우 대화 상대방의 만족도를 예측하여 본인이 실수를 했다고 생각하면 feedback을 요청하는 방식으로 reward를 받는 방식이다. 
 
 이 카테고리에서 해결해야 할 문제는 상대방의 unsatisfaction이 conversation 밖의 문제일 경우 공감을 해줘야 하는데, 이를 conversation의 문제라고 생각하고 고치려고 한다거나, sentiment를 사용해서 학습을 하는 경우 offensive comment는 피하고 positive sentiment에만 집중하다가 결국 negative한 것들을 모두 배척하고 긍정적인 주제에만 집중해서 대화의 품질이 떨어질 수 있다는 것이다.
 
-* updating relevant sources of knowledge
+#### updating relevant sources of knowledge
 좋은 conversational agent는 트렌드를 따라갈 수 있어야 하는데, 지식을 외부 소스에서 가져오는 경우 단순히 소스를 업데이트해주거나, 위키같은 다이나믹 소스를 사용하는 경우 updated 버전을 읽어오면 이를 해결할 수 있다.
 
 Pure retrieval model의 경우 모델 생성시에 지정해준 값들에서만 읽어올 수 있고, generative model은 발화를 생성하기 때문에 좀 더 자유로운 답변을 생성할 수 있다. 초기에는 retrieval model의 성능이 더 좋았는데 최근 large pre-training dataset, 그리고 improved decoding choices를 적용하면서 generative model의 성능이 비약적으로 좋아졌다.
