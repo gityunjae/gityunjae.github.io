@@ -168,3 +168,11 @@ crowdsourcing을 통해 여러 사람들이 여러번 정제를 하는 과정을
 
 이러한 방법은 현재의 모델을 디바이스 상에서 돌아갈 수 있을 정도로 down-sizing해야 가능하다. 현재 더 효율적인 distil 관련 연구가 많이 이루어지고 있다.
 
+----
+## Measuring Success
+
+## Discussion
+
+## Recommendations to the Community
+
+## Conclusion
