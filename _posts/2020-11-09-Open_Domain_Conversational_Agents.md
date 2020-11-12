@@ -114,6 +114,15 @@ NLP 연구자들은 reasoning을 더 명시적으로 거론하고자 했는데, 
 
 이 카테고리에서 해결해야 할 점은 이러한 NLP 분야에서의 reasoning에 대한 연구가 아직 dialogue나 language generation 분야에는 거의 적용되지 않았다는 것이다. 한 가지 가능성이 있어보이는 연구로 dialogue generation에 대해 likelihood unlikelihood training을 통해 correct reasoning에는 보상을 주고 incorrect reasoning에는 패널티를 부과하는 연구가 있었다.
 
+### Multimodality and Grounding
+언어는 우리가 살고 있는 세상과 관련된 개념들을 표현하는데에 사용된다. 사람은 이러한 개념들을 언어 뿐만이 아니라 시각이나 청각, 그리고 그 외 감각들도 사용해서 인지한다. 언어를 다른 modality(a person’s attitude toward the world)로 grounding하는 것은 언어를 배워 실제 사용으로 연결하는 데에 도움이 될 것이다. 
+
+예를 들어 engaging conversational agent라면 다른 감각들에 대해 논의할 수 있어야 할 것이다. 예를 들면 image captioning이라던지 video captioning, visual QA나 visual dialogue task를 수행할 수 있을 것이다. 언어를 사용하는 Embodied agents(구현되어있는, 가상의 아바타도 있는 그런..) 또한 연구되고 있다.
+
+Open domain conversation에 관련해서는 가장 연관성 있는 visual task는 Image-chat, Image Grounded Conversations 등 이미지를 기반한 자연스러운 대화가 있다. 사람들이 어떤것을 보면서 관점을 표현하는 task인데, 성공적인 모델로 TransResNet이 있다. 이는 image, personality 그리고 caption을 ResNet과 Transformer 모델을 사용해서 같은 공간에 투영한다.
+nonconversational multimodal data와 conversational multimodal data를 결합해서 높은 성능을 보이는 모델에 대한 연구도 있었다.
+
+이 카테고리에서 해결해야 할 점은 아무래도 하나의 modality 안에서만 연구하는것보다 여러 modality를 같이 고려하는 것이 더 유용하고, 이러한 modality를 추가함으로써 정말 engaging한 agent를 만들 수 있을 것이라고 생각한다.
 
 
 
