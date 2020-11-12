@@ -147,3 +147,12 @@ personalize라고도 할 수 있고 customize 이라고도 할 수 있을 것 �
 전반적으로 이러한 engagingness에 대한 연구는 사람들이 conversational agent와 대화하고 싶게 만드는 매우 중요한 요소이지만, engagingness만으로는 충분하지 않고, 그 대표적인 예시로 챗봇 Tay가 있다. 
 
 ## 3. Well-Behaved
+conversational agent가 지녀야 할 quality 중 하나는 사람들이 원하는대로 대해줘야 한다는 것이다.
+
+### Offensive and Toxic Content
+engaging함을 유지하면서 사람들에게 어떠한 공격도 되지 않으면서 논쟁의 여부가 있을 표현, 주제, 의견 등을 제외한 표현들로만 대화를 이어가는것은 정말 어렵다. 
+
+crowdsourcing을 통해 여러 사람들이 여러번 정제를 하는 과정을 통하면 toxic content detection task의 metric이 향상되는 결과를 얻을 수 있다. 또한 문맥이 발화를 공격적인지 아닌지에 영향을 미칠 수 있다는 것이다. 다른 연구들에서는 모델의 toxicity를 조절하기 위해서 학습 데이터 또는 학습 목표에서 offensive content를 제거하기도 하였다. social media data로 기학습시키는 것보다 crowdworker들이 생성한 toxic하지 않은 데이터로 파인튜닝하는 것이 덜 toxic한 모델을 생성한다는 연구도 있었다.
+
+이 카테고리에서 해결해야 할 점은 offensive의 기준에 대한 깊은 이해가 없다는 점과 사람들이 즐겁게 느끼는 것과 offensive하게 느끼는 것, engaging하게 느끼는것과 부적절한 은어의 경계를 구분짓는 것이다. 기존의 제한된 생성모델을 사용해서 모델을 좀 더 개개인의 취향에 맞게 수정할 수도 있겠지만 제한된 생성모델이 그렇게까지 적용하기에는 아직 조금 부족하다. 또 다른 방법은 강화학습을 사용하는 방식인데, 이 또한 자칫하면 날씨나 재미 없는 주제들에 대해서만 얘기하는 등의 undesirable한 결과가 나올 수 있기 때문에 보상을 줄 objective를 신중하게 정해야 한다.
+
