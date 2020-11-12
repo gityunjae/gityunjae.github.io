@@ -124,6 +124,26 @@ nonconversational multimodal data와 conversational multimodal data를 결합해
 
 이 카테고리에서 해결해야 할 점은 아무래도 하나의 modality 안에서만 연구하는것보다 여러 modality를 같이 고려하는 것이 더 유용하고, 이러한 modality를 추가함으로써 정말 engaging한 agent를 만들 수 있을 것이라고 생각한다.
 
+### Personality
+agent의 다른 merit들과 독립적으로 personality가 녹아있는 언어를 사용하는 경우 사용자들의 호감을 크게 살 수 있다.
+초기에는 dialogue data를 주고 personality를 학습하게 했는데, 그 결과 다양한 personality가 섞여버리는 결과가 나왔다. 이를 해결하기 위해서 speaker id별 personality를 가중치에 포함시켜서 학습을 시키거나 training data에 personality 정보를 명시해서 학습을 시키는 시도도 있었고, 후자의 경우가 Persona-Chat dataset에 해당한다.
 
+personality를 personality trait을 정해주고 이를 기준으로 생각하는 연구도 있었는데, 215개의 trait을 주고 학습을 시킨 결과 trait들을 잘 따라하는 결과가 나왔고, 이는 user engagement를 크게 상승시켰다.
+
+personality를 하나로 고정해놓고 bot을 만드는 경우도 있는데, 다양한 personality를 적용할 수 있는 bot이 낫다고 생각한다. 일단 더 다양한 환경을 제공할 수 있고, 사용자들 각각이 생각하고 원하는 이상적인 대화 상대가 다를 수 있기 때문이다.
+
+이 카테고리에서 해결할 점 중 consistency의 경우 기존의 consistency 이슈와 동일하다. 그리고 각각의 user에게 어떤 personality를 매칭 해줘야 할지도 더 연구해봐야 할 주제이다.
+
+### Being Personal
+personalize라고도 할 수 있고 customize 이라고도 할 수 있을 것 같은데 개인화를 잘 시키면 좋다.  보통 대화를 시작할때 본인의 정보에 대한 질문을 주고받는데, 이 질문들에 대한 정답이 보통 남은 대화를 이끌어간다.
+
+이 카테고리에서 해결해야 할 점은 대화를 하면서 점점 사용자들은 agent가 내 정보를 어느정도 기억하고 있기를 기대하지만 사실상 end-to-end chatbot들은 기억을 못한다는 것이다. 이는 memory 문제로도 이어진다. dialogue 연구에 개인화된 추천 시스템을 적용해보는 것도 매우 가능성 있어 보인다.
+
+### Putting It All Together
+결과적으로 위에서 언급한 모든 요소들은 해결해야 할 점들이 있고, 이들을 개선하는 것은 중요하다. 그런데 더 중요한 것은 이 요소들을 모두 고려하여 하나로 모으는 작업이다.
+
+실제로 다양한 dialogue task를 모두 학습시키려는 시도가 있었는데, knowledge, personality, multimodality, 그리고 여기서도 언급한 몇몇 요소들을 모두 다루었고, 한 agent가 이런 모든 스킬을 다룰 수 있게 하는것이 목적이었다. 이를 확장해서 모델을 향상시켜서 이러한 다양한 측면을 하나로 합쳐주는 연구가 시도되고 있는데, 예를 들어 Blended Skill Talk라는 데이터셋과 retrieval model을 사용해서 knowledgeability, personality, empathy 등 다양한 행동과 스킬을 한 대화에서 부드럽게 사용할 수 있는 연구가 있었다. 또다른 BlenderBot을 만드는 연구에서는 앞의 연구와 유사하게 social media 데이터로 기학습 시킨 후 대규모의 생성모델을 파인튜닝하는 방식을 사용하였다.
+
+전반적으로 이러한 engagingness에 대한 연구는 사람들이 conversational agent와 대화하고 싶게 만드는 매우 중요한 요소이지만, engagingness만으로는 충분하지 않고, 그 대표적인 예시로 챗봇 Tay가 있다. 
 
 ## 3. Well-Behaved
