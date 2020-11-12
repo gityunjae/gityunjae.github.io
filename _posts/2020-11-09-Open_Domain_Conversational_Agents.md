@@ -85,6 +85,24 @@ Generic response problem을 해결하기 위해서는 controllable neural text g
 이 카테고리의 문제는 적절한 decoding 방식을 사용하더라도 주제와 연관되고 말이 되는 답변을 하지만 여전히 다양한 표현을 사용하지는 못한다는 것이다. 또한, 각각의 발화 이상으로 대화의 흐름을 최적화 하는 것도 연구해야 하는 부분이다.
 
 ### Consistency
+생성 모델의 경우 얼핏봐서 엄청 사람같고 토큰 단위로 보면 정확해 보이지만 길게 문맥상으로 보면 흠이 많다.
+또한, 대화하던 주제는 잘 유지하지만 실제로 이해하고 대화를 하는 것은 아니기 때문에 스스로 모순적인 말을 할 수 있다.
+이 문제는 특히 Natural Language Inference 분야에서 더 활발하게 다뤄지는 내용이라고 한다.
+
+이 카테고리에서 해결해야 할 문제는 현재는 post-processing 과정에서 classifier를 추가하여 특정 도메인에 대한 consistency를 높여줄 수 있지만, 이와 유사하게 이해를 할 수 있는 모델을 개발해서 더 범용적으로 적용을 할 수 있게 해야 한다는 것이다.
+
+### Memory
+최근 연구는 메모리 관련 이슈를 다루지 않는데 아무래도 트랜스포머 등 입력을 그렇게 많이 필요로 하지 않는 모델 구조와 크라우드소싱을 통해 얻는 등의 데이터 수집 절차 때문이다. 
+
+long-term knowledge를 사용하는 접근법은 주로 graph representation이나 unstructured text retrieval을 사용하여 memory network architecture를 적용하는 방식이다.
+이러한 접근은 long-term fact에 대한 QA나 어떤 주제에 대해 깊게 논의한다거나 long-term personal memory를 회상하는 task에서 효과적이다.
+
+이 카테고리에서 해결해야 할 점은 새로운 memory가 계속해서 생성된다는 점과 특정한 short-term goal에 관련된 정보만 수집하고 달리 정제하지 않을 경우 일반화와 학습에 제한이 생길 수 있다는 점이다. 
+
+머신러닝에서 read, write memory 구조가 연구된 적이 있었으나 실제 대규모 dialogue task에서는 성공적인 결과가 아직 발표된 바가 없다. BERT로 위키피디아 정보를 학습한 결과 knowledge base들을 가중치에 성공적으로 압축하는 연구가 있었지만, 이것이 실제로 문장을 읽고 거기에 담긴 지식을 배우는것과 동일하다고 생각하지 않는다.
+
+깊은 추론을 하기 위해서는 모델들이 각각의 단계에서 하는 추론 과정을 저장해서 이를 활용할 수 있게 해야된다. 이것은 memory를 continual learning을 연결해서 생각해볼 수 있다.
+
 
 
 
