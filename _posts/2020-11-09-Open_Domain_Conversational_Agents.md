@@ -103,6 +103,17 @@ long-term knowledge를 사용하는 접근법은 주로 graph representation이�
 
 깊은 추론을 하기 위해서는 모델들이 각각의 단계에서 하는 추론 과정을 저장해서 이를 활용할 수 있게 해야된다. 이것은 memory를 continual learning을 연결해서 생각해볼 수 있다.
 
+### Commonsense & Reasoning
+최근 연구에서는 reasoning에 대한 내용을 직접적으로 서술하지 않는대신 task를 얼마나 잘 수행하는지를 보여준다.
+task-oriented dialogue의 경우 task는 사용자의 발화를 이해하는것부터 db에 검색해서 정답을 찾는 등의 task가 있고, QA에서는 유사하지만 single turn task로 reading comprehension이나 retrieval을 하는 task등이 있다.
+답변을 생성하기 위해서는 어떤 task든 어느 정도의 reasoning은 해야 하지만 대부분의 경우 강력한 기준선을 제공하는 것으로 문제를 해결하는 경우가 많은데, 이 때 data가 특정 도메인 관련이면 실제로 성공적으로 task를 수행할 수 있다고 한다.
+
+NLP 연구자들은 reasoning을 더 명시적으로 거론하고자 했는데, 이를 위해 제한된 reasoning을 포함한 인공적인 task를 주거나 더 큰 crowdsourced benchmark를 만드는 시도들이 있었다.
+
+이러한 경우 true generalization이 얼마나 이뤄지고 있는지를 어떻게 측정할지 또한 연구되고 있는 분야인데 최근에 사람들이 모델의 결함을 직접 찾아보는 연구들도 있었다고 한다.
+
+이 카테고리에서 해결해야 할 점은 이러한 NLP 분야에서의 reasoning에 대한 연구가 아직 dialogue나 language generation 분야에는 거의 적용되지 않았다는 것이다. 한 가지 가능성이 있어보이는 연구로 dialogue generation에 대해 likelihood unlikelihood training을 통해 correct reasoning에는 보상을 주고 incorrect reasoning에는 패널티를 부과하는 연구가 있었다.
+
 
 
 
