@@ -78,6 +78,14 @@ Agent는 대화에서의 균형을 잘 유지하는 것도 매우 중요한데, 
 Generic response problem을 해결하기 위해서는 controllable neural text generation을 사용하는 방법이 있다. controllable neural text generation의 예시로는 conditional training 또는 weighted decoding 방식이 있는데, 기본적으로 rare word의 사용을 늘려 less generic한 발화를 생성하는 방식이다.
 <del>generic을 not specific으로 간주해도 되는건가</del>
 
+아무튼 그 외의 요소들도 조절해서 학습이 가능하고, 조절 결과 human quality judgement 결과가 더 좋았다고 한다.
+
+또다른 방법으로는 unlikelihood training을 하는 방법이 있는데, 이는 성능을 저하시키는 요인에 패널티를 주는 방식이다. 이 방식은 language modeling에서는 좋은 성능을 보였고, dialogue 분야에서도 괜찮은 결과를 낸 사례가 있다고 한다. minimal length restraint만 설정해줘도 human rating이 크게 올라간다고 한다.
+
+이 카테고리의 문제는 적절한 decoding 방식을 사용하더라도 주제와 연관되고 말이 되는 답변을 하지만 여전히 다양한 표현을 사용하지는 못한다는 것이다. 또한, 각각의 발화 이상으로 대화의 흐름을 최적화 하는 것도 연구해야 하는 부분이다.
+
+### Consistency
+
 
 
 ## 3. Well-Behaved
