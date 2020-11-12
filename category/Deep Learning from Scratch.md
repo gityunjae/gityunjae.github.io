@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Deep Learning from Scratch
-category: Deep Learning from Scratch
+category: DLfS
 permalink: '/category/dlfs'
 ---
