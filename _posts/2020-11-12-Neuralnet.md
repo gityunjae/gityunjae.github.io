@@ -28,7 +28,5 @@ title: 3. 신경망
 
 아래는 순서대로 계단함수, 시그모이드 함수, 그리고 ReLU함수이다.
 <div>
-  <img width="100" src="https://gityunjae.github.io/images/step.png">
-  <img width="100" src="https://gityunjae.github.io/images/sigmoid.png">
-  <img width="100" src="https://gityunjae.github.io/images/ReLU.png">
+  <img width="200" src="https://gityunjae.github.io/images/step.png"> <img width="200" src="https://gityunjae.github.io/images/sigmoid.png"> <img width="200" src="https://gityunjae.github.io/images/ReLU.png">
 </div>
