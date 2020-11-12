@@ -52,4 +52,32 @@ Pure retrieval model의 경우 모델 생성시에 지정해준 값들에서만 
 
 ## 2. Engaging Content
 
+Agent가 지속적으로 화제를 던져줘야 대화가 계속 이어진다.
+
+### Expert & Knowledgeable
+
+general conversationalist는 얕고 넓은 주제에 대해서, 그리 specialist는 자신의 분야 관련 지식에 대해 깊게 아는 것이 중요하다.
+Agent의 경우에는 knowledge와 fact를 정리해서 답변에 잘 녹여내는 능력이 중요하다.
+
+기존의 goal-oriented dialogue의 경우에는 정형화된 지식, 슬롯 채우기 방식, 라벨링, 강화학습 등을 사용하고, QA의 경우에는 대형의 정형, 비정형 데이터를 가지고 답변을 생성하는 방식을 사용한다.
+QA에서 사용하는 데이터셋의 경우 conversation 앞쪽에 나왔던 내용을 참조해서 질의응답을 하는 사례도 있다.
+하지만 이러한 goal-oriented 또는 QA 방식 모두 open-domain agent의 할 일을 모두 다루지는 못한다.
+
+결론적으로 목표는 open domain knowledge conversation, qa, task completion을 통해 engaging하고 knowledgeable한 skillful bot을 만드는 것이다.
+
+이 카테고리에서 생길 수 있는 문제는, 전문적이고 박식하기 위해서는 기억과 추론 모두를 잘 해야 하는데 그 중에서도 상식적인 추론을 잘 해야 한다는 것이다. 그 외에도 새로운 task로의 transfer가 잘 이뤄져야 하는데, 이러한 부분은 아래와 같은 두 가지를 개선하면 해결될 것이라 생각한다 한다.
+1. architectures and learning mechanisms that better incorporate compositionality
+2. continual learning that updates knowledge and expertise in those tasks
+
+### Expressiveness and Flow
+Agent는 대화에서의 균형을 잘 유지하는 것도 매우 중요한데, 이 때 균형이라고 함은 simplicity vs detail, staying on topic vs changing the topic, ask vs answer 등을 말한다.
+생성모델을 사용할 경우 짧고 의미 없는 대답을 생성하거나 자주 나오는 단어는 지나치게 많이 사용학 거의 안나오는 단어들은 점점 덜 사용하는 한계가 존재한다.
+
+담화에서는 전체 dialogue flow의 예측이 어렵다는 문제도 존재하는데, 이 문제는 perplexity를 단순히 최적화한다고 해결되지도 않는다.
+
+Generic response problem을 해결하기 위해서는 controllable neural text generation을 사용하는 방법이 있다. controllable neural text generation의 예시로는 conditional training 또는 weighted decoding 방식이 있는데, 기본적으로 rare word의 사용을 늘려 less generic한 발화를 생성하는 방식이다.
+<del>generic을 not specific으로 간주해도 되는건가</del>
+
+
+
 ## 3. Well-Behaved
