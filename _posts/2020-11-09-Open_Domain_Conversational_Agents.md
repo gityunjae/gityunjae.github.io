@@ -170,6 +170,20 @@ crowdsourcing을 통해 여러 사람들이 여러번 정제를 하는 과정을
 
 ----
 ## Measuring Success
+Natural Language Generation을 evaluate하는 것도 아직 갈 길이 먼 부분이다. multi-turn으로 sequence를 생성하는 task를 evaluate한다는 것 자체가 어렵기 때문이다.
+
+그 중 dialogue system을 evaluate하려고 했던 시도들과 각각의 상대적 장점, 그리고 해결해야 할 부분들에 대해 정리하였다.
+
+### Human Evaluations
+Goal-oriented dialogue system는 상대적으로 좀 더 명확한 평가 척도를 가지고 있지만 대화 태스크처럼 open ended 분야에서는 자동화해서 평가할 수 있는 명확한 goal이 없다. 실제로도 자동적인 평가 방법이 사람이 평가한 결과와 뚜렷한 상관관계를 보이지도 않는다. 이를 보면 현재의 dialogue 연구를 평가하는 데에는 아무래도 사람의 손이 거쳐가야 한다는 것이다.
+
+사람이 평가하는 것중 가장 흔히 사용되는 것 두가지는 single-turn pairwise evaluation과 multi-turn Likert evaluation이다.
+
+single-turn pairwise evaluation은 평가자(사람)에게 전체적인 맥락을 주고 가능한 두가지 답변중에서 더 괜찮아 보이는 것을 고르게 시키는 방식이다. 이는 간단해서 좋지만, multi-turn 측면을 고려하지 못한다는 단점이 있다.
+
+multi-turn Likert evaluation은 평가자(사람)가 agent와 몇분동안 대화를 한 후 Likert(1-5) 척도로 성능을 평가하는 것이다. 이러한 방식을 모델이 더 긴 대화를 잘 이끌어갈 수 있는지를 평가하기 좋고 out-of-distribution등의 상황을 다루는 능력을 평가하기에 유용하기 때문에 single-turn pairwise evaluation보다 더 선호될수도 있다. 하지만 이 방식은 single-turn pairwise evaluation 방식보다 더 많은 노동력이 필요하고 사람이 주관적으로 평가하기 때문에 완전히 믿을 수 없다. 그리고 모델간 다른 점을 찾을 만큼 강력하지 못하다. 게다가 annotator의 분포가 달라질 수 있기 때문에 기준을 re-evaluate해야 한다. 또한 첫 시스템을 평가한 결과가 이후의 평가에 영향을 줄 수 있다는 문제점도 있다.
+
+single-turn
 
 ## Discussion
 
