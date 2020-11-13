@@ -210,8 +210,18 @@ openness는 매우 중요하다. pretrained model이나 연구한 모델을 공�
 ## Our Experiences
 
 ### Pretraining
-pretraining은 성능에 매우 중요한 영향을 미친다. 
+pretraining은 retrieval 모델과 generative 모델 모두의 성능에 매우 중요한 영향을 미친다. domain-specific pretraininig은 특히 성능 향상에 크게 영향을 미친다. 
 
-## Recommendations to the Community
+### Efficiency
+연산을 많이 할 수 있는 그룹들도 배포를 하기 위해서는 어느정도 연산을 할 만한 크기의 모델을 만들어야 한다. 이를 위해 Polyencoder라는 것을 만들었다. 또한 모델을 test할 수 있어야 한다. 계속 더 작은 규모로 더 높은 성능을 낼 수 있는 알고리즘을 만드는 것이 중요하다.
+
+### Deployment
+배포를 시도해본 결과 다른 사람을 포함하지 않은 interaction의 모델에 더 큰 만족감을 느낀다는 것을 알 수 있었고, 배포시에 지속적인 adversarial 유저들이 있었다. 이 사람들은 자신이 봇을 학습할 수 있고, 봇이 빠르게 본인을 따라할 수 있을 것이라고 생각하였다. 다른 사람들은 계속 민감한 질문을 해서 봇이 offensive 답변을 하는지 보면서 의도적으로 봇이 실패하는지를 확인하려고 했다. 
 
 ## Conclusion
+결과적으로 기존 chatbot의 약점을 모델 학습을 통해 개선의 여지가 있다는 것을 알 수 있었다. 그리고 subtask를 합쳐서 하나의 통일된 지능형 agent를 만들고 personable, consistent, empathetic, engaging한 intelligent chatbot을 만드는 것이 목표이다.
+
+contribution을 위해 모델과 학습 코드와 데이터셋을 공유하고, 이후 연구로 dialogue 연구에 발전이 있었으면 좋겠다.
+
+<br><br>
+<del>정말 읽는데 술술 안읽히는 글이었다...뚀륵...</del>
