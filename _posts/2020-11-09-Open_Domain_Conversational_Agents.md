@@ -188,9 +188,29 @@ single-turn 방식과 multi-turn 방식을 둘 다 활용하는 hybrid 방식을
 하지만 연구 결과 이러한 ACUTE-Eval이 self-chat 모드에도 적용할 수 있다는 것을 알 수 있는데, 이는 대화를 하는 인력이 없어도 되기 때문에 필요한 자원의 양이 크게 줄어든다. 또한 self-chat 데이터를 사용한 결과와 사람이 bot과 대화하는 데이터를 사용한 결과에 상관관계가 있다는 것을 확인할 수 있다.
 
 ### Automatic metrics
+앞에서 언급했듯 open-ended nature 때문에 automatic metric을 적용하기란 쉽지 않다. 같은 질문에도 여러 답이 나올 수 있다. 다른 분야에서는 F1이나 BLEU, ROUGE, CIDEr, METEOR등의 metric이 제안되었고, 이것이 조금씩 다른 측면들을 cover하지만 conversational model을 평가하기에 적절한 모델은 아직 없는 것으로 알고 있다. conversational agent의 몇몇 부분을 다룰 수 있는 Recall @ K, Top-1 Accuracy 등의 방법도 제안됐지만 너무 다양한 답이 나올 수 있는 dialogue에서는 모델이 새로운 상황에 대해서 얼마나 잘 적응하는지를 판단할 수가 없다. 유사하게 생성 모델은 perplexity를 사용하는 경우가 많은데, beam search나 sampling을 사용하는 모델에서는 사용하기에 적절하지 못하다. Perplexity는 dictionary에 따라서도 영향을 받는다.
+또한 repitition이나 vocabulary usage등 특정 behavior을 측정하는 방법도 있다.
 
+learning metric을 사용하는 방식도 있는데 이것은 주로 자동으로 추출된 feature들에 regression을 적용한다. 
+
+이 분야에서 눈여겨볼 점은 shared task를 사용하면 human judgement와 가장 상관관계가 명확한 automatic metric을 찾을 수도 있다는 점이다.
+
+### Behavioral Metrics
+behavioral metrics의 경우 conversation이 끝날 때까지 몇번 말을 주고받았는지를 평가하거나 retention(같은 bot과 얼마나 다시 대화를 시도하는가)을 평가하는데, 예를 들어 계속 clarification을 요구하는 agent의 경우 왔다갔다 하는 대화 횟수는 많지만 사람들은 싫어할 수 있다. 
+
+### Discussion
+결과적으로 단기적으로 봤을 때 배포된 모델은 사용자들이 agent와 계속 대화할 수 있도록 retention을 높여야 할 것이다.
 
 ## Discussion
+이 부분에서는 연구에서의 tradeoff와 development process를 소개한다.
+
+### Values and Guiding Principles
+openness는 매우 중요하다. pretrained model이나 연구한 모델을 공개하는 것이 중요하다. 또 다른 중요한 점은 swiftness이다. NLP분야의 연구가 새로운 모델이 계속해서 나오기 때문에 이러한 모델을을 빨리빨리 적용해보는 것은 중요하다. 또 중요한 것이 privacy인데, chat 데이터를 수집할 때 informed consent를 다 받고, openness와 swiftness보다 privacy를 더 높은 priority로 두었다. 하지만  role-playing같은 방식을 사용하여 openness와 swiftness, 그리고 privacy를 모두 보장할 수 있을 것이라 생각한다.
+
+## Our Experiences
+
+### Pretraining
+pretraining은 성능에 매우 중요한 영향을 미친다. 
 
 ## Recommendations to the Community
 
