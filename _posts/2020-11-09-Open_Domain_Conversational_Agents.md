@@ -183,7 +183,12 @@ single-turn pairwise evaluation은 평가자(사람)에게 전체적인 맥락�
 
 multi-turn Likert evaluation은 평가자(사람)가 agent와 몇분동안 대화를 한 후 Likert(1-5) 척도로 성능을 평가하는 것이다. 이러한 방식을 모델이 더 긴 대화를 잘 이끌어갈 수 있는지를 평가하기 좋고 out-of-distribution등의 상황을 다루는 능력을 평가하기에 유용하기 때문에 single-turn pairwise evaluation보다 더 선호될수도 있다. 하지만 이 방식은 single-turn pairwise evaluation 방식보다 더 많은 노동력이 필요하고 사람이 주관적으로 평가하기 때문에 완전히 믿을 수 없다. 그리고 모델간 다른 점을 찾을 만큼 강력하지 못하다. 게다가 annotator의 분포가 달라질 수 있기 때문에 기준을 re-evaluate해야 한다. 또한 첫 시스템을 평가한 결과가 이후의 평가에 영향을 줄 수 있다는 문제점도 있다.
 
-single-turn
+single-turn 방식과 multi-turn 방식을 둘 다 활용하는 hybrid 방식을 제안한 연구들도 있었는데 single turn에서 연속적인 scale로 평가를 하거나 multi turn에서 binary good/bad 평가를 한 연구도 있었다. 최근에는 ACUTE-Eval이라고 complete dialogue에 대한 complete pairwise evaluation을 하기도 하였다. 이러한 방식은 single-turn과 multi-turn 두 경우 모두보다 좋은 성능을 보였다. 하지만 이 방식을 사용하면 model과 비교를 하는 사람들과 이를 pairwise로 선택하는 제3자가 있어야 하기 때문에 비교해야 할 시스템이 많으면 필요한 자원이 늘어난다. 하지만 동일한 대화 자료를 pairwise comparison으로 여러번 사용할 수 있다. 
+
+하지만 연구 결과 이러한 ACUTE-Eval이 self-chat 모드에도 적용할 수 있다는 것을 알 수 있는데, 이는 대화를 하는 인력이 없어도 되기 때문에 필요한 자원의 양이 크게 줄어든다. 또한 self-chat 데이터를 사용한 결과와 사람이 bot과 대화하는 데이터를 사용한 결과에 상관관계가 있다는 것을 확인할 수 있다.
+
+### Automatic metrics
+
 
 ## Discussion
 
