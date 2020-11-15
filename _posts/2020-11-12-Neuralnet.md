@@ -37,6 +37,7 @@ title: 3. 신경망
   <img src="https://gityunjae.github.io/images/ReLU.png">
 </div>
 
+<br><br>
 ------------
 
 이제 3계층 신경망에서 어떤 방식으로 순방향 학습이 이루어지는지를 코드와 함께 보도록 하자.
