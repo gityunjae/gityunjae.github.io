@@ -44,7 +44,8 @@ title: 3. 신경망
 
 먼저 우리가 코드로 구현할 3계층 신경망은 다음과 같다.
 
-<사진>
+![3lynn](https://gityunjae.github.io/images/3layernn.jpeg)
+
 
 
 
