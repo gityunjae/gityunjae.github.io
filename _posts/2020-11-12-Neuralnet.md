@@ -37,14 +37,18 @@ title: 3. 신경망
   <img src="https://gityunjae.github.io/images/ReLU.png">
 </div>
 
+------------
 
 이제 3계층 신경망에서 어떤 방식으로 순방향 학습이 이루어지는지를 코드와 함께 보도록 하자.
+
 먼저 우리가 코드로 구현할 3계층 신경망은 다음과 같다.
+
 <사진>
 
 
+
 코드는 다음과 같다.
-```python
+``` python
 def init_network():
   network = {}
   network['W1'] = np.array([[0.1, 0.3, 0.5], [0.2, 0.4, 0.6]])
