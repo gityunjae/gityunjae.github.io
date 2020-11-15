@@ -26,7 +26,16 @@ title: 3. 신경망
 
 또 다른 활성화 함수로는 ReLU 함수가 있는데, ReLU함수는 입력이 0 이하이면 0을 출력하고 0보다 크면 입력값을 그대로 출력하는 함수이다.
 
-
+아래는 순서대로 계단함수, 시그모이드 함수, 그리고 ReLU함수이다.
+<div style="float: left; width: 33%">
+  <img src="https://gityunjae.github.io/images/step.png">
+</div>
+<div style="float: left; width: 33%">
+  <img src="https://gityunjae.github.io/images/sigmoid.png"> 
+</div>
+<div style="float: left; width: 33%">
+  <img src="https://gityunjae.github.io/images/ReLU.png">
+</div>
 
 <br><br>
 ------------
@@ -40,7 +49,7 @@ title: 3. 신경망
 
 
 코드는 다음과 같다.
-``` python
+```{.python}
 def init_network():
   network = {}
   network['W1'] = np.array([[0.1, 0.3, 0.5], [0.2, 0.4, 0.6]])
