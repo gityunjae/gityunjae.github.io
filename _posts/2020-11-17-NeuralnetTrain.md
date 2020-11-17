@@ -25,5 +25,5 @@ title: 4. 신경망 학습
 손실함수의 출력이 작으면 정답 레이블과의 오차가 작고 정답에 더 가깝다고 판단할 수 있다.
 
 * 교차 엔트로피 오차(cross entropy error, CEE)
-![CEE](https://gityunjae.github.io/images/CEE>JPG)
+![CEE](https://gityunjae.github.io/images/CEE.JPG)
 실질적으로 정답에 대응되는 추정값의 자연로그 값과 동일하다. 이 방법에서도 정답에 해당하는 출력이 커질수록 오차가 작아지고, 정답에 해당하는 출력이 작아질수록 오차가 커진다.
