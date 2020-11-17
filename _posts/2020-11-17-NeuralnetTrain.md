@@ -21,9 +21,9 @@ title: 4. 신경망 학습
 신경망 학습에서는 현재의 상태를 하나의 지표로 표현하고, 이 지표를 가장 좋게 만들어주는 가중치 매개변수 값을 탐색한다. <b>손실함수</b>(loss function, 비용함수(cost function)이라고 부르기도 한다)가 이 지표에 해당한다. 손실함수로는 일반적으로 오차제곱합과 교차엔트로피 오차를 사용한다.
 
 * 오차 제곱합(sum of squares for error, SSE)
-(img)
+![SSE](https://gityunjae.github.io/images/SSE.JPG)
 손실함수의 출력이 작으면 정답 레이블과의 오차가 작고 정답에 더 가깝다고 판단할 수 있다.
 
 * 교차 엔트로피 오차(cross entropy error, CEE)
-(img)
+![CEE](https://gityunjae.github.io/images/CEE>JPG)
 실질적으로 정답에 대응되는 추정값의 자연로그 값과 동일하다. 이 방법에서도 정답에 해당하는 출력이 커질수록 오차가 작아지고, 정답에 해당하는 출력이 작아질수록 오차가 커진다.
