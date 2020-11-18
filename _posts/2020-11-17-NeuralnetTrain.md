@@ -87,4 +87,4 @@ def numerical_diff(f, x):
 
 위의 방법은 경사하강법을 사용하면서 무작위로 미니배치를 선정하는 방식인데, 이러한 방법을 확률적 경사 하강법(stochastic gradient descent, SGD)이라고 부른다. 다시 말하면 확률적으로 무작위로 골라낸 데이터에 대해 수행하는 경사하강법을 말한다.
 
-간단한 2계층 신경망과 이를 가지고 MNIST 데이터를 학습하는 코드는 다음 <a href=”https://github.com/gityunjae/DLfromScratch1/tree/main/Chap04%20Neural%20Net%20Train/mnist%20example”>github</a>에서 확인할 수 있다.
+간단한 2계층 신경망과 이를 가지고 MNIST 데이터를 학습하는 코드는 다음 <a href="https://github.com/gityunjae/DLfromScratch1/tree/main/Chap04%20Neural%20Net%20Train/mnist%20example">github</a>에서 확인할 수 있다.
