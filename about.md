@@ -6,8 +6,8 @@ I am currently a Computer Science B.S. candidate at Ewha Womans University
 
 My main interests are...
 * Question and Answering
-* Dialog system
-* Chatbots / intelligent agents
+* Dialogue system
+* Open domain Chatbots / intelligent agents
 
 Below are what I'm mainly planning to post about.
 
