@@ -13,7 +13,7 @@ title: 6. 학습 관련 기술들
 SGD 방식은 단순하고 구현이 쉽지만 비효율적인 경우도 있다.
 비등방성 함수(방향에 따라 성질, 기울기가 달라지는 함수)에서는 SGD의 탐색경로가 비효율적이다.
 
-![02](https://gityunjae.github.io/images/Chap06/02.JPG)
+![02](https://gityunjae.github.io/images/Chap06/02.png)
 
 이러한 단점을 개선해주는 방법으로 모멘텀, AdaGrad, Adam 방법이 있다.
 
@@ -23,7 +23,7 @@ SGD 방식은 단순하고 구현이 쉽지만 비효율적인 경우도 있다.
 
 모멘텀은 v라는 속도에 해당하는 변수를 사용하는 방식으로 기울기 방향으로 힘을 받아 물체가 가속되는 물리 법칙을 적용한 방식이다.
 
-![04](https://gityunjae.github.io/images/Chap06/04.JPG)
+![04](https://gityunjae.github.io/images/Chap06/04.png)
 
 SGD와 비교해서 지그재그의 정도가 덜한것을 알 수 있는데, x축 방향 힘이 작지만 방향이 바뀌지 않기 때문에 점점 가속을 하기 때문이다.
 
@@ -38,14 +38,14 @@ AdaGrad 방식에서는 학습률을 각각의 매개변수에 맞춤형으로 �
 
 식에서 h는 기존 기울기를 제곱해서 더해준 값이고, h의 제곱근의 역수를 곱해 학습률을 조정하는데, 매개변수 원소 중 많이 움직인 원소의 학습률이 낮아지는 방식이다.
 
-![06](https://gityunjae.github.io/images/Chap06/06.JPG)
+![06](https://gityunjae.github.io/images/Chap06/06.png)
 
 AdaGrad의 단점은 학습이 진행될수록 갱신강도가 약해져서 어느 순간부터 갱신이 안될 수 있다는 점인데, 이를 개선해서 지수이동평균 방식을 사용하여 과거의 기울이는 덜 반영하고 최근 정보는 더 크게 반영하는 방법을 RMSProp 방법이라고 한다.
 
 ### Adam
 Adam 방식은 모멘텀과 AdaGrad를 융합한 모델로 효율적이고, 하이퍼 파라미터의 편향 보정 또한 진행된다고 한다. (논문을 보면 더 자세히 나온다고 하는데, 다음에 다른 교재를 공부할 때 기회가 되면 원리를 이해해보기로 하자.)
 
-![07](https://gityunjae.github.io/images/Chap06/07.JPG)
+![07](https://gityunjae.github.io/images/Chap06/07.png)
 
 SGD, 모멘텀, AdaGrad, Adam 모두 장단점이 있고, 각각의 문제에 따라, 하이퍼 파라미터에 따라 성능이 다르기 때문에 해결하려는 문제에 대해 여러가지로 시도해보는 것이 좋다.
 
