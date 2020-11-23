@@ -22,7 +22,6 @@ title: Yoonjae Lee
         h2 span { position: relative; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
         a { color: #999; text-decoration: none; }
-        a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 32px 17px; }
         #objective { float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
