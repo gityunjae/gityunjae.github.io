@@ -90,20 +90,23 @@ title: Yoonjae Lee
             
             <dt>Experience</dt>
             <dd>
-                <h2>Capstone Project: Ewha Womans University, 2019.03 ~ 2019.12</h2>
+                <h2>Capstone Project</h2>
                 <ul>
+                    <li>Ewha Womans University, 2019.03 ~ 2019.12</li>
                     <li>Implementing Air Travel Information domain Chatbot</li>
                     <li>Code uploaded on github: <a href="https://github.com/capstonedesign57/AirScope_jupyterVer">link</a></li>
                     <li>KSC 2019, Undergrad Paper & Poster: <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09301982">link</a></li>
                 </ul>
                 
-                <h2>Undergraduate Intern: KAIST ICLab, 2019.12 ~ 2020.03</h2>
+                <h2>Undergraduate Intern</h2>
                 <ul>
+                    <li>KAIST ICLab, 2019.12 ~ 2020.03</li>
                     <li>Study on User Experiences of Context Based Smart Device Automatic Configuration Services</li>
                     <li>KCC 2020, Undergrad Paper & Online Poster: <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09874771">link</a></li>
                 </ul> 
-                <h2>Undergraduate Intern: SNU CCLab, 2020.07 ~ 2020.08</h2>
+                <h2>Undergraduate Intern</h2>
                 <ul>
+                    <li>SNU CCLab, 2020.07 ~ 2020.08</li>
                     <li>Generated text data for research</li>
                     <li>Read and Present Language Model Papers</li>
                 </ul> 
