@@ -25,7 +25,7 @@ title: Yoonjae Lee
         #objective { float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { float: right; }
+        dd { float: left; }
         dd.clear { float: none; margin: 0; height: 15px; }
      </style>
 </head>
