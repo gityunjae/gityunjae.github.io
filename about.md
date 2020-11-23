@@ -1,6 +1,6 @@
 ---
 layout: page
-Title: Yoonjae Lee
+title: Yoonjae Lee
 ---
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
@@ -34,13 +34,9 @@ Title: Yoonjae Lee
 
     <div id="page-wrap">
     
-        <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
-    
         <div id="contact-info" class="vcard">
         
             <!-- Microformats! -->
-        
-            
         
             <p>
                 Email: <a class="email" href="mailto:yunjae2005@gmail.com">yunjae2005@gmail.com</a>
