@@ -106,12 +106,12 @@ title: Yoonjae Lee
             <dd class="clear"></dd>
             
             <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
+            <dd>Listening to Music, Watching Netflix, Cooking, Handicraft</dd>
             
             <dd class="clear"></dd>
             
             <dt>References</dt>
-            <dd>Available on request</dd>
+            <dd>-</dd>
             
             <dd class="clear"></dd>
         </dl>
