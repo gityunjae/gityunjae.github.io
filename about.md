@@ -48,7 +48,7 @@ title: Yoonjae Lee
                 I am a self-motivated student with a strong will who is interested in Natural Language
                 Processing and Understanding, especially open-domain chatbot at the moment.
                 This blog is for posting and analyzing the things I learned or the papers I read.
-                I am a member of Jiphyunjeon which is a NLP paper reading club starting this December.
+                I am a member of <a href="https://github.com/jiphyeonjeon/nlp-review">Jiphyeonjeon</a> which is a NLP paper reading club starting December 2020.
                 I am an introvert to stangers, but once you get to know me, you'll see an extrovert inside me!
             </p>
         </div>
