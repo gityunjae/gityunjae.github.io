@@ -71,7 +71,7 @@ title: Yoonjae Lee
             <dd>
                 <h2>Ewha Womans University</h2>
                 <p>Bachelor's degree (2016.03 ~ 2021.02) <br>
-                   <strong>Major:</strong> Computer science</p>
+                   Major: Computer science</p>
             </dd>
             
             <dd class="clear"></dd>
@@ -82,7 +82,7 @@ title: Yoonjae Lee
                 <p>Python, C, Java, html </p>
                 
                 <h2>Language skills</h2>
-                <p>fluent: Korean, English Intermediate: Spanish</p>
+                <p>fluent: Korean, English / Intermediate: Spanish</p>
                 
             </dd>
             
