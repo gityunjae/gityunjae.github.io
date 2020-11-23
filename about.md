@@ -51,8 +51,8 @@ title: Yoonjae Lee
                 I can bring world domination to your organization. 
             </p>
         </div>
-        <div style="float: right; width: 20%">
-          <img src="https://gityunjae.github.io/images/yun.JPG"">
+        <div style="float: right; width: 15%">
+          <img src="https://gityunjae.github.io/images/yun.JPG">
         </div>
         
         <div class="clear"></div>
