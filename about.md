@@ -3,171 +3,123 @@ layout: page
 title: About
 ---
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-	<title>Jonathan Doe | Web Designer, Director | name@yourdomain.com</title>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <title>One Page Resume</title>
 
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="resume.css" media="all" />
-
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+     </style>
 </head>
+
 <body>
 
-<div id="doc2" class="yui-t7">
-	<div id="inner">
-	
-		<div id="hd">
-			<div class="yui-gc">
-				<div class="yui-u first">
-					<h1>Jonathan Doe</h1>
-					<h2>Web Designer, Director</h2>
-				</div>
-
-				<div class="yui-u">
-					<div class="contact-info">
-						<h3><a id="pdf" href="#">Download PDF</a></h3>
-						<h3><a href="mailto:name@yourdomain.com">name@yourdomain.com</a></h3>
-						<h3>(313) - 867-5309</h3>
-					</div><!--// .contact-info -->
-				</div>
-			</div><!--// .yui-gc -->
-		</div><!--// hd -->
-
-		<div id="bd">
-			<div id="yui-main">
-				<div class="yui-b">
-
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2>Profile</h2>
-						</div>
-						<div class="yui-u">
-							<p class="enlarge">
-								Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change. 
-							</p>
-						</div>
-					</div><!--// .yui-gf -->
-
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2>Skills</h2>
-						</div>
-						<div class="yui-u">
-
-								<div class="talent">
-									<h2>Web Design</h2>
-									<p>Assertively exploit wireless initiatives rather than synergistic core competencies.	</p>
-								</div>
-
-								<div class="talent">
-									<h2>Interface Design</h2>
-									<p>Credibly streamline mission-critical value with multifunctional functionalities.	 </p>
-								</div>
-
-								<div class="talent">
-									<h2>Project Direction</h2>
-									<p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
-								</div>
-						</div>
-					</div><!--// .yui-gf -->
-
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2>Technical</h2>
-						</div>
-						<div class="yui-u">
-							<ul class="talent">
-								<li>XHTML</li>
-								<li>CSS</li>
-								<li class="last">Javascript</li>
-							</ul>
-
-							<ul class="talent">
-								<li>Jquery</li>
-								<li>PHP</li>
-								<li class="last">CVS / Subversion</li>
-							</ul>
-
-							<ul class="talent">
-								<li>OS X</li>
-								<li>Windows XP/Vista</li>
-								<li class="last">Linux</li>
-							</ul>
-						</div>
-					</div><!--// .yui-gf-->
-
-					<div class="yui-gf">
-	
-						<div class="yui-u first">
-							<h2>Experience</h2>
-						</div><!--// .yui-u -->
-
-						<div class="yui-u">
-
-							<div class="job">
-								<h2>Facebook</h2>
-								<h3>Senior Interface Designer</h3>
-								<h4>2005-2007</h4>
-								<p>Intrinsicly enable optimal core competencies through corporate relationships. Phosfluorescently implement worldwide vortals and client-focused imperatives. Conveniently initiate virtual paradigms and top-line convergence. </p>
-							</div>
-
-							<div class="job">
-								<h2>Apple Inc.</h2>
-								<h3>Senior Interface Designer</h3>
-								<h4>2005-2007</h4>
-								<p>Progressively reconceptualize multifunctional "outside the box" thinking through inexpensive methods of empowerment. Compellingly morph extensive niche markets with mission-critical ideas. Phosfluorescently deliver bricks-and-clicks strategic theme areas rather than scalable benefits. </p>
-							</div>
-
-							<div class="job">
-								<h2>Microsoft</h2>
-								<h3>Principal and Creative Lead</h3>
-								<h4>2004-2005</h4>
-								<p>Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials. </p>
-							</div>
-
-
-							<div class="job last">
-								<h2>International Business Machines (IBM)</h2>
-								<h3>Lead Web Designer</h3>
-								<h4>2001-2004</h4>
-								<p>Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.</p>
-							</div>
-
-						</div><!--// .yui-u -->
-					</div><!--// .yui-gf -->
-
-
-					<div class="yui-gf last">
-						<div class="yui-u first">
-							<h2>Education</h2>
-						</div>
-						<div class="yui-u">
-							<h2>Indiana University - Bloomington, Indiana</h2>
-							<h3>Dual Major, Economics and English &mdash; <strong>4.0 GPA</strong> </h3>
-						</div>
-					</div><!--// .yui-gf -->
-
-
-				</div><!--// .yui-b -->
-			</div><!--// yui-main -->
-		</div><!--// bd -->
-
-		<div id="ft">
-			<p>Jonathan Doe &mdash; <a href="mailto:name@yourdomain.com">name@yourdomain.com</a> &mdash; (313) - 867-5309</p>
-		</div><!--// footer -->
-
-	</div><!-- // inner -->
-
-
-</div><!--// doc -->
-
+    <div id="page-wrap">
+    
+        <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">C'thulhu</h1>
+        
+            <p>
+                Cell: <span class="tel">555-666-7777</span><br />
+                Email: <a class="email" href="mailto:greatoldone@lovecraft.com">greatoldone@lovecraft.com</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                I am an outgoing and energetic (ask anybody) young professional, seeking a 
+                career that fits my professional skills, personality, and murderous tendencies. 
+                My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
+                I can bring world domination to your organization. 
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>Withering Madness University - Planet Vhoorl</h2>
+                <p><strong>Major:</strong> Public Relations<br />
+                   <strong>Minor:</strong> Scale Tending</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                <h2>Office skills</h2>
+                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
+                
+                <h2>Computer skills</h2>
+                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Experience</dt>
+            <dd>
+                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
+                <ul>
+                    <li>Inspired and won highest peasant death competition among servants</li>
+                    <li>Helped coordinate managers to grow cult following</li>
+                    <li>Provided untimely deaths to all who opposed</li>
+                </ul>
+                
+                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
+                <ul>
+                    <li>Worked on grass-roots promotional campaigns</li>
+                    <li>Reduced theft and property damage percentages</li>
+                    <li>Janitorial work, Laundry</li>
+                </ul> 
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Hobbies</dt>
+            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>References</dt>
+            <dd>Available on request</dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
 
 </body>
-</html>
 
+</html>
