@@ -5,7 +5,7 @@ title: Yoonjae Lee
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-     <meta http-equiv="Content-Type" content="text/html; width=device-width; initial-scale=1.0; charset=utf-8"/>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
      <title>One Page Resume</title>
 
@@ -38,6 +38,9 @@ title: Yoonjae Lee
         
             <!-- Microformats! -->
         
+            <p>
+                mobile: <a href="https://gityunjae.github.io/mobile_about/">link</a>
+            </p>
             <p>
                 Email: <a class="email" href="mailto:yunjae2005@gmail.com">yunjae2005@gmail.com</a>
             </p>
