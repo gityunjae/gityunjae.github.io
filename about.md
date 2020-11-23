@@ -43,14 +43,16 @@ title: Yoonjae Lee
             </p>
         </div>
                 
-        <div id="objective" style="float: left; width: 50%">
+        <div id="objective" style="float: left; width: 80%">
             <p>
                 I am an outgoing and energetic (ask anybody) young professional, seeking a 
                 career that fits my professional skills, personality, and murderous tendencies. 
                 My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
                 I can bring world domination to your organization. 
             </p>
-            <img src="https://gityunjae.github.io/images/yun.JPG" style="height: 60px">
+        </div>
+        <div style="float: right; width: 20%">
+          <img src="https://gityunjae.github.io/images/yun.JPG"">
         </div>
         
         <div class="clear"></div>
@@ -106,7 +108,7 @@ title: Yoonjae Lee
             <dd class="clear"></dd>
             
             <dt>Hobbies</dt>
-            <dd>Listening to Music, Watching Netflix, Cooking, Handicraft</dd>
+            <dd>Listening to Music, Watching Netflix, Cooking, Handcraft</dd>
             
             <dd class="clear"></dd>
             
