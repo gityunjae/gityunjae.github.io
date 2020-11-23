@@ -61,6 +61,11 @@ title: Yoonjae Lee
         <dl>
             <dd class="clear"></dd>
             
+            <dt>Area of Interests</dt>
+            <dd>Natural Language Processing & Understanding, Open-domain Chatbot, Question & Answering, Dialogue System</dd>
+            
+            <dd class="clear"></dd>
+            
             <dt>Education</dt>
             <dd>
                 <h2>Ewha Womans University</h2>
@@ -112,11 +117,7 @@ title: Yoonjae Lee
             <dd>Listening to Music, Watching Netflix, Cooking, Handcraft</dd>
             
             <dd class="clear"></dd>
-            
-            <dt>References</dt>
-            <dd>-</dd>
-            
-            <dd class="clear"></dd>
+           
         </dl>
         
         <div class="clear"></div>
