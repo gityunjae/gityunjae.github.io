@@ -43,14 +43,14 @@ title: Yoonjae Lee
             </p>
         </div>
                 
-        <div id="objective">
+        <div id="objective" style="float: left; width: 50%">
             <p>
                 I am an outgoing and energetic (ask anybody) young professional, seeking a 
                 career that fits my professional skills, personality, and murderous tendencies. 
                 My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
                 I can bring world domination to your organization. 
             </p>
-            <img src="https://gityunjae.github.io/images/yun.JPG">
+            <img src="https://gityunjae.github.io/images/yun.JPG" style="height: 60px">
         </div>
         
         <div class="clear"></div>
@@ -82,14 +82,20 @@ title: Yoonjae Lee
             
             <dt>Experience</dt>
             <dd>
-                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
+                <h2>Exchange Student <span>Central Washington University, 2018.09 ~ 2018.12</span></h2>
                 <ul>
                     <li>Inspired and won highest peasant death competition among servants</li>
                     <li>Helped coordinate managers to grow cult following</li>
                     <li>Provided untimely deaths to all who opposed</li>
                 </ul>
                 
-                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
+                <h2>Undergraduate Intern <span>KAIST ICLab, 2019.12 ~ 2020.03</span></h2>
+                <ul>
+                    <li>Worked on grass-roots promotional campaigns</li>
+                    <li>Reduced theft and property damage percentages</li>
+                    <li>Janitorial work, Laundry</li>
+                </ul> 
+                <h2>Undergraduate Intern <span>SNU CCLab, 2020.07 ~ 2020.08</span></h2>
                 <ul>
                     <li>Worked on grass-roots promotional campaigns</li>
                     <li>Reduced theft and property damage percentages</li>
