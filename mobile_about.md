@@ -62,12 +62,14 @@ title: Yoonjae Lee
         <dl>
             <dd class="clear"></dd>
             
-            <dt>Area of Interests</dt>
+            <h1>Area of Interests</h1>
+            ---
             <dd>Natural Language Processing & Understanding <br> Open-domain Chatbot, Question & Answering, Dialogue System</dd>
             
             <dd class="clear"></dd>
             
-            <dt>Education</dt>
+            <h1>Education</h1>
+            ---
             <dd>
                 <h2>Ewha Womans University</h2>
                 <p>Bachelor's degree (2016.03 ~ 2021.02) <br>
@@ -76,7 +78,8 @@ title: Yoonjae Lee
             
             <dd class="clear"></dd>
             
-            <dt>Skills</dt>
+            <h1>Skills</h1>
+            ---
             <dd>
                 <h2>Programming skills</h2>
                 <p>Python, C, Java, html </p>
