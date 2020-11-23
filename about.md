@@ -62,7 +62,7 @@ title: Yoonjae Lee
             <dd class="clear"></dd>
             
             <dt>Area of Interests</dt>
-            <dd>Natural Language Processing & Understanding, Open-domain Chatbot, Question & Answering, Dialogue System</dd>
+            <dd>Natural Language Processing & Understanding <br> Open-domain Chatbot, Question & Answering, Dialogue System</dd>
             
             <dd class="clear"></dd>
             
