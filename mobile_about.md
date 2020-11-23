@@ -24,7 +24,7 @@ title: Yoonjae Lee
         ul { margin: 0 0 32px 17px; }
         #objective { float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; margin-right: 5px; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; margin-right: 5px; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; }
         dd { float: left; margin-left: 5px; }
         dd.clear { float: none; margin: 0; height: 15px; }
      </style>
@@ -62,13 +62,13 @@ title: Yoonjae Lee
         <dl>
             <dd class="clear"></dd>
             
-            <h1>Area of Interests</h1>
+            <dt>Area of Interests</dt>
             ---
             <dd>Natural Language Processing & Understanding <br> Open-domain Chatbot, Question & Answering, Dialogue System</dd>
             
             <dd class="clear"></dd>
             
-            <h1>Education</h1>
+            <dt>Education</dt>
             ---
             <dd>
                 <h2>Ewha Womans University</h2>
@@ -78,7 +78,7 @@ title: Yoonjae Lee
             
             <dd class="clear"></dd>
             
-            <h1>Skills</h1>
+            <dt>Skills</dt>
             ---
             <dd>
                 <h2>Programming skills</h2>
