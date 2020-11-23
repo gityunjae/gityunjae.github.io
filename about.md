@@ -15,7 +15,8 @@ title: About me
         .clear { clear: both; }
         #page-wrap { width: 800px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 0px; font-weight: bold; letter-spacing: -2px; }
+        h5 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
@@ -31,7 +32,7 @@ title: About me
 </head>
 
 <body>
-  <h1>Yoonjae Lee</h1>
+  <h5>Yoonjae Lee</h5>
     <div id="page-wrap">
         <div style="float: left; width: 70%">
         <div id="contact-info" class="vcard">
