@@ -82,17 +82,17 @@ Xavier 초기값은 활성화 함수가 선형(sigmoid, tanh)이라는 전제로
 
 배치 정규화의 목적은 활성화 값을 적당히 분포 시키는 것으로 학습 시 미니배치를 단위로 정규화를 하는데, 데이터 분포의 평균이 0, 분산이 1이 되도록 정규화를 한다. 
 
-![08](https://gityunjae.github.io/images/Chap06/08.png)
+![08](https://gityunjae.github.io/images/Chap06/08.JPG)
 
 이러한 정규화 계층은 활성화 함수 앞 또는 뒤에 삽입한다.
 
 또한, 배치 정규화 계층마다 이 정규화된 데이터에 고유한 확대와 이동 변환을 수행하는데, 다음과 같은 식에서 학습을 통해 감마와 베타 값을 조정해 나간다.
 
-![09](https://gityunjae.github.io/images/Chap06/09.png)
+![09](https://gityunjae.github.io/images/Chap06/09.JPG)
 
 이 과정을 계산 그래프로 나타내면 다음과 같다.
 
-![10](https://gityunjae.github.io/images/Chap06/10.png)
+![10](https://gityunjae.github.io/images/Chap06/10.JPG)
 
 결론적으로 배치 정규화의 효과는 학습 속도가 높아지고 초기값의 영향을 덜 받는다는 것이다.
 
