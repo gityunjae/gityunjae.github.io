@@ -111,7 +111,7 @@ title: Yoonjae Lee
                 <h2>Undergraduate Intern</h2>
                 <ul>
                     <li>SNU CCLab, 2020.07 ~ 2020.08</li>
-                    <li>Generated text data for research</li>
+                    <li>Generate text data for research</li>
                     <li>Read and Present Language Model Papers</li>
                 </ul> 
             </dd>
