@@ -17,14 +17,14 @@ title: Yoonjae Lee
         #pic { float: right; margin: -30px 0 0 0; }
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        h2 span { position: relative; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
         a { color: #999; text-decoration: none; }
         a:hover { border-bottom-style: solid; color: black; }
         ul { margin: 0 0 32px 17px; }
         #objective { float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; margin-right: 5px; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
         dd { float: left; }
         dd.clear { float: none; margin: 0; height: 15px; }
      </style>
@@ -90,19 +90,19 @@ title: Yoonjae Lee
             
             <dt>Experience</dt>
             <dd>
-                <h2>Capstone Project <span>Ewha Womans University, 2019.03 ~ 2019.12</span></h2>
+                <h2>Capstone Project: Ewha Womans University, 2019.03 ~ 2019.12</h2>
                 <ul>
                     <li>Implementing Air Travel Information domain Chatbot</li>
                     <li>Code uploaded on github: <a href="https://github.com/capstonedesign57/AirScope_jupyterVer">link</a></li>
                     <li>KSC 2019, Undergrad Paper & Poster: <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09301982">link</a></li>
                 </ul>
                 
-                <h2>Undergraduate Intern <span>KAIST ICLab, 2019.12 ~ 2020.03</span></h2>
+                <h2>Undergraduate Intern: KAIST ICLab, 2019.12 ~ 2020.03</h2>
                 <ul>
                     <li>Study on User Experiences of Context Based Smart Device Automatic Configuration Services</li>
                     <li>KCC 2020, Undergrad Paper & Online Poster: <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09874771">link</a></li>
                 </ul> 
-                <h2>Undergraduate Intern <span>SNU CCLab, 2020.07 ~ 2020.08</span></h2>
+                <h2>Undergraduate Intern: SNU CCLab, 2020.07 ~ 2020.08</h2>
                 <ul>
                     <li>Generated text data for research</li>
                     <li>Read and Present Language Model Papers</li>
