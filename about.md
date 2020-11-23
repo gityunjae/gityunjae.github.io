@@ -1,4 +1,7 @@
-
+---
+layout: page
+Title: Yoonjae Lee
+---
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
@@ -37,7 +40,7 @@
         
             <!-- Microformats! -->
         
-            <h1 class="fn">Yoonjae Lee</h1>
+            
         
             <p>
                 Email: <a class="email" href="mailto:yunjae2005@gmail.com">yunjae2005@gmail.com</a>
