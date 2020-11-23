@@ -1,5 +1,5 @@
 ---
-category: etc
+category: diary
 layout: post
 title: Yoonjae Lee
 ---
