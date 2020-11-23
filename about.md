@@ -40,7 +40,6 @@
             <h1 class="fn">Yoonjae Lee</h1>
         
             <p>
-                Cell: <span class="tel">555-666-7777</span><br />
                 Email: <a class="email" href="mailto:yunjae2005@gmail.com">yunjae2005@gmail.com</a>
             </p>
         </div>
@@ -61,20 +60,22 @@
             
             <dt>Education</dt>
             <dd>
-                <h2>Withering Madness University - Planet Vhoorl</h2>
-                <p><strong>Major:</strong> Public Relations<br />
-                   <strong>Minor:</strong> Scale Tending</p>
+                <h2>Ewha Womans University</h2>
+                <p><strong>Bachelor's degree (2016.03 ~ 2021.02)
+                <p><strong>Major:</strong> Computer science</p>
             </dd>
             
             <dd class="clear"></dd>
             
             <dt>Skills</dt>
             <dd>
-                <h2>Office skills</h2>
-                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
+                <h2>Programming skills</h2>
+                <p>Python, C, Java, html </p>
                 
-                <h2>Computer skills</h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
+                <h2>Language skills</h2>
+                <p>fluent: Korean, English </br>
+                   Intermediate: Spanish</p>
+                
             </dd>
             
             <dd class="clear"></dd>
