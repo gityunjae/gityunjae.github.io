@@ -50,6 +50,7 @@ title: Yoonjae Lee
                 My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
                 I can bring world domination to your organization. 
             </p>
+            <img src="https://gityunjae.github.io/images/yun.png">
         </div>
         
         <div class="clear"></div>
