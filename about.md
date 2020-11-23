@@ -33,7 +33,7 @@ title: Yoonjae Lee
 <body>
 
     <div id="page-wrap">
-        <div style="float: left; width: 75%">
+        <div style="float: left; width: 70%">
         <div id="contact-info" class="vcard">
         
             <!-- Microformats! -->
@@ -53,8 +53,8 @@ title: Yoonjae Lee
             </p>
         </div>
         </div>
-        <div style="float: right; width: 20%; margin-right: 5%">
-          <img src="https://gityunjae.github.io/images/yun.JPG" style="border: 10 solid black">
+        <div style="float: left; width: 20%;">
+          <img src="https://gityunjae.github.io/images/yun.JPG" style="border: 3px solid black">
         </div>
         
         <div class="clear"></div>
