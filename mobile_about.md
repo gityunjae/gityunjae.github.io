@@ -16,7 +16,7 @@ title: Yoonjae Lee
         #page-wrap { margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h32 { font-style: italic; margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 28px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h4 { font-style: italic; margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 28px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: relative; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
@@ -63,13 +63,13 @@ title: Yoonjae Lee
         <dl>
             <dd class="clear"></dd>
             
-            <h32>Area of Interests</h32>
+            <h4>Area of Interests</h4>
            
             <dd>Natural Language Processing & Understanding <br> Open-domain Chatbot, Question & Answering, Dialogue System</dd>
             
             <dd class="clear"></dd>
             
-            <h32>Education</h32>
+            <h4>Education</h4>
             
             <dd>
                 <h2>Ewha Womans University</h2>
@@ -79,7 +79,7 @@ title: Yoonjae Lee
             
             <dd class="clear"></dd>
             
-            <h32>Skills</h32>
+            <h4>Skills</h4>
             
             <dd>
                 <h2>Programming skills</h2>
@@ -92,7 +92,7 @@ title: Yoonjae Lee
             
             <dd class="clear"></dd>
             
-            <h32>Experience</h32>
+            <h4>Experience</h4>
             <dd>
                 <h2>Capstone Project</h2>
                 <ul>
@@ -118,7 +118,7 @@ title: Yoonjae Lee
             
             <dd class="clear"></dd>
             
-            <h32>Hobbies</h32>
+            <h4>Hobbies</h4>
             <dd>Listening to Music, Watching Netflix, Cooking, Handcraft</dd>
             
             <dd class="clear"></dd>
