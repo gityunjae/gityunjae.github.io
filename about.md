@@ -33,7 +33,7 @@ title: Yoonjae Lee
 <body>
 
     <div id="page-wrap">
-        <div style="float: left; width: 70%">
+        <div style="float: left; width: 75%">
         <div id="contact-info" class="vcard">
         
             <!-- Microformats! -->
