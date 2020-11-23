@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Yoonjae Lee
+title: About me
 ---
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
@@ -31,7 +31,7 @@ title: Yoonjae Lee
 </head>
 
 <body>
-
+  <h1>Yoonjae Lee</h1>
     <div id="page-wrap">
         <div style="float: left; width: 70%">
         <div id="contact-info" class="vcard">
