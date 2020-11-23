@@ -39,9 +39,7 @@ title: Yoonjae Lee
             <!-- Microformats! -->
         
             <p>
-                mobile: <a href="https://gityunjae.github.io/mobile_about/">link</a>
-            </p>
-            <p>
+                mobile: <a href="https://gityunjae.github.io/mobile_about/">link</a> <br>
                 Email: <a class="email" href="mailto:yunjae2005@gmail.com">yunjae2005@gmail.com</a>
             </p>
         </div>
