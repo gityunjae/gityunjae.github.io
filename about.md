@@ -39,7 +39,7 @@ title: About me
             <!-- Microformats! -->
         
             <p>
-                mobile: <a href="https://gityunjae.github.io/etc/mobile_about/">link</a> <br>
+                mobile: <a href="https://gityunjae.github.io/etc/2020/11/23/mobile_about/">link</a> <br>
                 Email: <a class="email" href="mailto:yunjae2005@gmail.com">yunjae2005@gmail.com</a>
             </p>
         </div>
