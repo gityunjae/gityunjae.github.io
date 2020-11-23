@@ -16,6 +16,7 @@ title: Yoonjae Lee
         #page-wrap { margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
         h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h3 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 30px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: relative; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
@@ -62,14 +63,14 @@ title: Yoonjae Lee
         <dl>
             <dd class="clear"></dd>
             
-            <dt>Area of Interests</dt>
-            ---
+            <h3>Area of Interests</h3>
+           
             <dd>Natural Language Processing & Understanding <br> Open-domain Chatbot, Question & Answering, Dialogue System</dd>
             
             <dd class="clear"></dd>
             
-            <dt>Education</dt>
-            ---
+            <h3>Education</h3>
+            
             <dd>
                 <h2>Ewha Womans University</h2>
                 <p>Bachelor's degree (2016.03 ~ 2021.02) <br>
@@ -78,8 +79,8 @@ title: Yoonjae Lee
             
             <dd class="clear"></dd>
             
-            <dt>Skills</dt>
-            ---
+            <h3>Skills</h3>
+            
             <dd>
                 <h2>Programming skills</h2>
                 <p>Python, C, Java, html </p>
@@ -91,7 +92,7 @@ title: Yoonjae Lee
             
             <dd class="clear"></dd>
             
-            <dt>Experience</dt>
+            <h3>Experience</h3>
             <dd>
                 <h2>Capstone Project</h2>
                 <ul>
@@ -117,7 +118,7 @@ title: Yoonjae Lee
             
             <dd class="clear"></dd>
             
-            <dt>Hobbies</dt>
+            <h3>Hobbies</h3>
             <dd>Listening to Music, Watching Netflix, Cooking, Handcraft</dd>
             
             <dd class="clear"></dd>
