@@ -33,7 +33,7 @@ title: Yoonjae Lee
 <body>
 
     <div id="page-wrap">
-    
+        <div style="float: left; width: 80%">
         <div id="contact-info" class="vcard">
         
             <!-- Microformats! -->
@@ -43,13 +43,14 @@ title: Yoonjae Lee
             </p>
         </div>
                 
-        <div id="objective" style="float: left; width: 80%">
+        <div id="objective">
             <p>
                 I am an outgoing and energetic (ask anybody) young professional, seeking a 
                 career that fits my professional skills, personality, and murderous tendencies. 
                 My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
                 I can bring world domination to your organization. 
             </p>
+        </div>
         </div>
         <div style="float: right; width: 15%">
           <img src="https://gityunjae.github.io/images/yun.JPG">
