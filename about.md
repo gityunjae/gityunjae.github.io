@@ -45,10 +45,11 @@ title: Yoonjae Lee
                 
         <div id="objective">
             <p>
-                I am an outgoing and energetic (ask anybody) young professional, seeking a 
-                career that fits my professional skills, personality, and murderous tendencies. 
-                My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
-                I can bring world domination to your organization. 
+                I am a self-motivated student with a strong will who is interested in Natural Language
+                Processing and Understanding, especially open-domain chatbot at the moment.
+                This blog is for posting and analyzing the things I learned or the papers I read.
+                I am a member of Jiphyunjeon which is a NLP paper reading club starting this December.
+                I am an introvert to stangers, but once you get to know me, you'll see an extrovert inside me!
             </p>
         </div>
         </div>
@@ -81,8 +82,7 @@ title: Yoonjae Lee
                 <p>Python, C, Java, html </p>
                 
                 <h2>Language skills</h2>
-                <p>fluent: Korean, English </br>
-                   Intermediate: Spanish</p>
+                <p>fluent: Korean, English Intermediate: Spanish</p>
                 
             </dd>
             
@@ -105,6 +105,7 @@ title: Yoonjae Lee
                 <h2>Undergraduate Intern <span>SNU CCLab, 2020.07 ~ 2020.08</span></h2>
                 <ul>
                     <li>Generated text data for research</li>
+                    <li>Read and Present Language Model Papers</li>
                 </ul> 
             </dd>
             
