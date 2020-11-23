@@ -90,24 +90,21 @@ title: Yoonjae Lee
             
             <dt>Experience</dt>
             <dd>
-                <h2>Exchange Student <span>Central Washington University, 2018.09 ~ 2018.12</span></h2>
+                <h2>Capstone Project <span>Ewha Womans University, 2019.03 ~ 2019.12</span></h2>
                 <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
+                    <li>Implementing Air Travel Information domain Chatbot</li>
+                    <li>Code uploaded on github: <a href="https://github.com/capstonedesign57/AirScope_jupyterVer">link</a></li>
+                    <li>KSC 2019, Undergrad Paper & Poster: <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09301982">link</a></li>
                 </ul>
                 
                 <h2>Undergraduate Intern <span>KAIST ICLab, 2019.12 ~ 2020.03</span></h2>
                 <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
+                    <li>Study on User Experiences of Context Based Smart Device Automatic Configuration Services</li>
+                    <li>KCC 2020, Undergrad Paper & Online Poster: <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09874771">link</a></li>
                 </ul> 
                 <h2>Undergraduate Intern <span>SNU CCLab, 2020.07 ~ 2020.08</span></h2>
                 <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
+                    <li>Generated text data for research</li>
                 </ul> 
             </dd>
             
