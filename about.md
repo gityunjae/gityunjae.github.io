@@ -1,6 +1,3 @@
----
-layout: page
----
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
@@ -40,11 +37,11 @@ layout: page
         
             <!-- Microformats! -->
         
-            <h1 class="fn">C'thulhu</h1>
+            <h1 class="fn">Yoonjae Lee</h1>
         
             <p>
                 Cell: <span class="tel">555-666-7777</span><br />
-                Email: <a class="email" href="mailto:greatoldone@lovecraft.com">greatoldone@lovecraft.com</a>
+                Email: <a class="email" href="mailto:yunjae2005@gmail.com">yunjae2005@gmail.com</a>
             </p>
         </div>
                 
