@@ -53,7 +53,7 @@ title: Yoonjae Lee
         </div>
         </div>
         <div style="float: right; width: 20%; margin-right: 5%">
-          <img src="https://gityunjae.github.io/images/yun.JPG">
+          <img src="https://gityunjae.github.io/images/yun.JPG" style="border: 10 solid black">
         </div>
         
         <div class="clear"></div>
