@@ -5,7 +5,7 @@ title: Temperature와 softmax
 ---
 Temperature는 신경망 모델의 하이퍼 파라미터 중 하나인데, softmax를 적용하기 전 logit 값들을 scaling해서 예측의 무작위성을 조절하는 역할을 한다.
 
-![01](https://gityunjae.github.io/images/tempSoft2.png)
+![01](img src="https://gityunjae.github.io/images/tempSoft2.png" width="60%")
 
 temperature 값이 1이면 이전 레이어에서 받은 logit값들을 그대로 사용해서 softmax를 계산하고, temperature 값이 0.6이면 logit값들을 0.6으로 나눠준 값들로 softmax를 계산하는데, 이 경우 logit 값들이 더 커진다.
 
@@ -17,4 +17,4 @@ softmax 함수는 출력값을 0과 1 사이로 유지하기 위해 각 iteratio
 
 더 자세한 내용은 위키나 Hinton의 Distilling the knowledge in a neural network 논문, 그리고 다른 블로그들을 참고하도록 하자.
 <br><br>
-출처: medium, <a href="https://medium.com/@majid.ghafouri/why-should-we-use-temperature-in-softmax-3709f4e0161">Why should we use Temperature in softmax?</a>
+출처: <a href="https://medium.com/@majid.ghafouri/why-should-we-use-temperature-in-softmax-3709f4e0161">Why should we use Temperature in softmax?</a>
