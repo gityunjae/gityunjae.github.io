@@ -5,7 +5,7 @@ title: Temperature와 softmax
 ---
 Temperature는 신경망 모델의 하이퍼 파라미터 중 하나인데, softmax를 적용하기 전 logit 값들을 scaling해서 예측의 무작위성을 조절하는 역할을 한다.
 
-![01](img src="https://gityunjae.github.io/images/tempSoft2.png" width="60%")
+<img src="https://gityunjae.github.io/images/tempSoft2.png" width="60%">
 
 temperature 값이 1이면 이전 레이어에서 받은 logit값들을 그대로 사용해서 softmax를 계산하고, temperature 값이 0.6이면 logit값들을 0.6으로 나눠준 값들로 softmax를 계산하는데, 이 경우 logit 값들이 더 커진다.
 
