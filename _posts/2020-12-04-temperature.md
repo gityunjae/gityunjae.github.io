@@ -17,4 +17,4 @@ softmax 함수는 출력값을 0과 1 사이로 유지하기 위해 각 iteratio
 
 더 자세한 내용은 위키나 Hinton의 Distilling the knowledge in a neural network 논문, 그리고 다른 블로그들을 참고하도록 하자.
 <br><br>
-출처: <a href="https://medium.com/@majid.ghafouri/why-should-we-use-temperature-in-softmax-3709f4e0161">Why should we use Temperature in softmax?</a>
+출처: medium, <a href="https://medium.com/@majid.ghafouri/why-should-we-use-temperature-in-softmax-3709f4e0161">Why should we use Temperature in softmax?</a>
