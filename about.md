@@ -74,6 +74,11 @@ title: About me
                 <p>Bachelor's degree (2016.03 ~ 2021.02) <br>
                    Major: Computer science</p>
             </dd>
+            <dd>
+                <h2>Seoul National University</h2>
+                <p>Graduate School of Convergence Science and Technology </p>
+                <p>Master's degree (2021.03 ~ ) </p>
+            </dd>
             
             <dd class="clear"></dd>
             
