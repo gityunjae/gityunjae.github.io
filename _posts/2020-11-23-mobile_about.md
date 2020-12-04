@@ -78,8 +78,8 @@ title: Yoonjae Lee
             </dd>
             <dd>
                 <h2>Seoul National University</h2>
-                <p>Graduate School of Convergence Science and Technology </p>
-                <p>Master's degree (2021.03 ~ ) </p>
+                <p>Graduate School of Convergence Science and Technology <br>
+                   Master's degree (2021.03 ~ ) </p>
             </dd>
             
             <dd class="clear"></dd>
