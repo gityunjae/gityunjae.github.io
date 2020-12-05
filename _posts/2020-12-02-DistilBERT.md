@@ -45,12 +45,28 @@ training loss를 계산할 때 soft target probability에 대한 distillation lo
 여기에다가 distillation loss와 supervised training loss(MLM loss)를 선형결합해준 값으로 학습을 시켜줬는데, 여기에 cosine embedding loss를 추가해주면 더 학습에 도움이 된다.
 
 ## 3. DistilBERT: a distilled version of BERT
+DistilBERT는 knowledge distillation에서 student의 역할을 하는데, BERT의 구조를 사용하지만 token-type embedding과 pooler를 사용하지 않는 구조이며, 레이어의 갯수를 1/2로 줄였다.
+또 하나 신경 쓴 부분이 초기화 방법인데, teacher과 student간의 dimensionality가 같다는 것을 활용해서 teacher의 레이어를 1/2개 차출해서 student를 초기화한다.
+
+RoBERTa의 방식을 사용해서 매우 큰 batch와 dynamic masking을 사용하고 next sentence prediction을 사용하지 않는 방식으로 학습되었다.
+또한 DistilBERT를 기존의 BERT와 동일한 말뭉치로 학습하였다.
 
 ## 4. Experiments
+결과는 GLUE benchmark에 적용하되 검증데이터 성능에 앙상블이나 멀티태스킹을 사용하지 않은 성능을 사용했는데, BERT보다 40% 더 적은 파라미터로 거의 97%의 성능을 내는 것을 확인할 수 있다.
+
+그 외에도 imdb 감성분석이나 SQuAD 등의 downstream task에서도 성능이 BERT보다 낮긴 하지만 파라미터 갯수 대비 매우 높은 성능을 보이는 것을 확인할 수 있다.
+
+여기서 DistilBERT를 한번 더 distil할 수 있는지, 즉 pretraining시 distillation 과정을 거치고 adaptation 단계에서 distillation을 한번 더 시켜본 결과 성능이 크게 낮아지지 않았다.
+
+on-device로 실행해봤을 때 BERT 모델보다 DistilBERT가 71% 더 빨랐다.
 
 ## 5. Related work
+관련된 연구로는 Task-specific distillation, Multi-distillation, 그리고 other compression techniques 등이 있다.
+관련된 여타의 연구들과 비교해보면 기존 teacher 모델의 지식을 initialization이나 loss 등으로 사용했을 때 성능 향상이 더 크다. (leveraging the teacher's knowledge leads to substantial gains)
 
 ## 6. Conclusion and future work
+결론적으로 이 연구에서는 BERT보다 40% 작고 60% 빠른 DistilBERT를 소개하는데, 이를 통해 범용적인 language model로도 성공적으로 distillation training을 할 수 있다는 것을 보였다.
+또한 DistilBERT는 edge application, 휴대폰 등에서 쓰기에 훨씬 매력적인 모델이다.
 
 
 출처:<br>
