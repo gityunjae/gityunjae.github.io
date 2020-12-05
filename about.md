@@ -71,7 +71,8 @@ title: About me
             <dt>Education</dt>
             <dd>
                 <h2>Ewha Womans University</h2>
-                <p>Bachelor's degree (2016.03 ~ 2021.02) <br>
+                <p>College of Engineering
+                   Bachelor's degree (2016.03 ~ 2021.02) <br>
                    Major: Computer science</p>
             </dd>
             <dd>
